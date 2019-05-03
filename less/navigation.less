@@ -1,1 +1,42 @@
 // Navigation code here
+.nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: @nav-bg;
+    font-family: @nav-font;
+    justify-content: space-around;
+    border: 2px solid @nav-border;
+    @media @mobile {
+        width: 100%;
+    }
+    
+
+    h1 {
+        .center();
+        font-size: 3.6rem;
+        color: @header-font-color;
+        padding: 20px;
+    }
+
+    nav {
+        .center();
+        width: 40%;
+        margin: auto;
+        justify-content: space-between;
+        /*border: 1px solid black;*/
+        @media @mobile {
+            width: 80%;
+        }
+
+    }
+    
+    a {
+        font-size: 1.6rem;
+        color: @main-font-color;
+        text-decoration: none;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+
+    }
+}

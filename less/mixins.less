@@ -1,1 +1,24 @@
 // Mixins Here
+
+.custom-button(@color, @radius) {
+    padding: 10px 10px 10px;
+    color: @porcelain;
+    background-color: @color;
+    border-radius: @radius;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 28%;
+}
+
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-hover-mixin() {
+    &:hover {
+        background-color: red;
+        color: indigo;
+    }
+}
