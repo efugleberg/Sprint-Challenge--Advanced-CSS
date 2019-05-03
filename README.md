@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites adapt to the width of the browser at specific points.  Responsive websites respond to the size of the browser at any givev point.  No matter the browser width, the site adjusts its layout in a way that is optimized for the screen.  Adaptive sites snap at breakpoints, responsive sites are smooth when adjusting the browser size.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first desin begins with designing the main functions of the site, then aims to build it out for higher resolution screens.  Desktop first design means designing for the highest specifications (most features, graphics, width sizing, etc.) and then scaling down your design to make it functional on mobile.  Mobile first is generally designed to be functional, then add features.  Desktop first is generally designed for sites that have a lot of features, then pared down for mobile.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It sets the base size of 1rem unit to 16px, which is traditionally the default size of html text on websites.  Therefore, 1rem = 16px, or the 1rem = the default size of html text.  It makes the math easier to work with when resizing text throughout teh page. (1rem = 16px or the default text size)
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows you to easier edit your CSS code.  One of the main features is being able to nest your CSS code like HTML, which makes it easier to read, maintain, and track.  It basically allows you to better organize your CSS and it also has further functionalities such as functions, variables, mixins which cuts down on repeat code and allows you to format several items with the same expressions.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is the nesting or the escaping.  What gives me trouble is probably also the nesting - knowing where to input styles within the nest.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -116,9 +126,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
